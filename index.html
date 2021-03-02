@@ -42,59 +42,40 @@
             <input type="email" name="email" id="email" required>
         </div>
 
-        <div class="campo">
-            <label><strong></strong></label>
-            <label>
-                <input type="radio" name="devweb" value="frontend" checked>Front-end
-            </label>
-            <label>
-                <input type="radio" name="devweb" value="backend">Back-end
-            </label>
-            <label>
-                <input type="radio" name="devweb" value="fullstack">Fullstack
-            </label>
-        </div>
 
 
         <div class="campo">
-            <label for="senioridade"><strong>Senioridade</strong></label>
-            <select id="senioridade" required>
-                <option selected disabled value="">Gêneros Preferidos</option>
-                <option>Terror</option>
-                <option>Pleno</option>
-                <option>Sênior</option>
+            <label for="genero"><strong>Gênero</strong></label>
+            <select id="genero" required>
+                <option selected disabled value="">Selecione</option>
+                <option>Masculino</option>
+                <option>Feminino</option>
             </select>
         </div>
 
         <fieldset class="grupo">
-            <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+
             <div id="check">
                 <label><strong>Gêneros Preferidos</strong></label><br><br>
-                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="Terror">
-                <label for="tecnologia1"> Terror</label>
-                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="Comédia">
-                <label for="tecnologia2"> Comédia</label>
-                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Ação">
-                <label for="tecnologia3"> Ação</label>
-                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="Suspense">
-                <label for="tecnologia4"> Suspense</label>
-                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="Romance">
-                <label for="tecnologia5"> Romance</label>
-                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
-                <label for="tecnologia6">Aventura</label>
-                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Drama">
-                <label for="tecnologia7">Drama</label>
+                <input type="checkbox" id="gen1" name="gen1" value="Terror">
+                <label for="gen1"> Terror</label>
+                <input type="checkbox" id="gen2" name="gen2" value="Comedia">
+                <label for="gen2"> Comédia</label>
+                <input type="checkbox" id="gen3" name="gen3" value="Ação">
+                <label for="gen3"> Ação</label>
+                <input type="checkbox" id="gen4" name="gen4" value="Suspense">
+                <label for="gen4"> Suspense</label>
+                <input type="checkbox" id="gen5" name="gen5" value="Romance">
+                <label for="gen5"> Romance</label>
+                <input type="checkbox" id="gen6" name="gen6" value="Python">
+                <label for="gen6">Aventura</label>
+                <input type="checkbox" id="gen7" name="gen7" value="Drama">
+                <label for="gen7">Drama</label>
             </div>
         </fieldset>
 
-        <!-- Caixa de texto -->
-        <div class="campo">
-            <br>
-            <label for="experiencia"><strong></strong></label>
-            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
-        </div>
 
-        <!-- Botão para enviar o formulário -->
+
         <button class="botao" type="submit" onsubmit="">Concluído</button>
 
     </form>
