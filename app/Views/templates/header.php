@@ -25,13 +25,13 @@
 
 <body>
     <!--preloading-->
-    <div id="preloader">
+    <!-- <div id="preloader">
         <img class="logo" src="/assets/images/logo1.png" alt="" width="119" height="58">
         <div id="status">
             <span></span>
             <span></span>
         </div>
-    </div>
+    </div> -->
     <!--end of preloading-->
 
     <!-- BEGIN | Header -->
@@ -64,7 +64,15 @@
                     </ul>
                     <ul class="nav navbar-nav flex-child-menu menu-right">
                         <li class="btn signupLink">
-                            <a>Adicionar Filme</a>
+                        <a onclick="mostrarForm()">Adicionar Filme</a>
+                        <div id="formCadastro" hidden> 
+                            <form method="POST" action="/ListaFilmes/CriarFilme">
+                                <input type="text" id="Nome" name="Nome"> 
+                                <input type="text" id="Ano" name="Ano"> 
+                                <input type="text" id="Nota" name="Nota">
+                                <input type="submit">
+                            </form>
+                        </div>
 
                         </li>
                     </ul>
@@ -83,3 +91,11 @@
         </div>
     </header>
     <!-- END | Header -->
+
+    <script>
+ 
+    function mostrarForm(){
+        $("#formCadastro").slideToggle();
+    }
+
+    </script>

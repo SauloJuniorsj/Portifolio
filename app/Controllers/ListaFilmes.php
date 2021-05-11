@@ -10,21 +10,29 @@ class ListaFilmes extends Controller {
 
     use ResponseTrait;
 
-    public function BuscarFilme(){
+    public function BuscarFilme($id_filme = null){
         $Filme = new Filme();
-        dd($Filme->findAll());
+
+        $data = [
+            'Filmes' => $Filme->getMovies($id_filme)
+        ]; 
+        echo($data);
+        echo view('templates/header');
+        echo view('pages/moviegrid', $data); //redirecionando pra page lista-paciente.html com os dados de id que vem do bd pro foreach funcionar
+        echo view('templates/footer');
     }
 
     public function CriarFilme($id_filme = null){
         helper('form');
 
         $Filme = new Filme();
-
-        $Filme->save(['Nome' => $this->request->getPost('Nome'),
-                      'Ano'  => $this->request->getPost('Ano'),
-                      'Nota' => $this->request->getPost('Nota')
+        
+        $Filme->save([
+                      'Nome' => $this->request->getVar('Nome'),
+                      'Ano'  => $this->request->getVar('Ano'),
+                      'Nota' => $this->request->getVar('Nota')
                     ]);    
-         print_r($this->input->post());
+        
         $data['Filmes'] = $Filme->getMovies($id_filme);
         return $this->BuscarFilme();
     }

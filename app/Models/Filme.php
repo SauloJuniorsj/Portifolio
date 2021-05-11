@@ -9,7 +9,7 @@ class Filme extends Model
 {
     protected $table = 'Filmes';
     protected $primaryKey = 'id';
-    protected $allowedFields = ["Nome, Ano, Nota"];
+    protected $allowedFields = ['Nome', 'Ano', 'Nota'];
   
     public function getMovies($id_Filme = null) {
         if ($id_Filme === null) {
