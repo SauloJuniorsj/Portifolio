@@ -32,11 +32,11 @@ class Database extends Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'localhost',
+		'hostname' => '',
 		'username' => '',
 		'password' => '',
-		'database' => '',
-		'DBDriver' => 'MySQLi',
+		'database' => 'C:\Users\SauloJr\OneDrive\Documentos\Portifolio\app\Database\db.sqlite',
+		'DBDriver' => 'SQLite3',
 		'DBPrefix' => '',
 		'pConnect' => false,
 		'DBDebug'  => (ENVIRONMENT !== 'production'),

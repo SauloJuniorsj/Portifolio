@@ -33,6 +33,12 @@
 						<a href="moviegridfw.html" class="grid"><i class="ion-grid active"></i></a>
 					</div>
 					<div class="flex-wrap-movielist mv-grid-fw">
+					<form method="POST" action="/ListaFilmes/CriarFilme">
+						<input type="text" id="Nome" name="Nome"> 
+						<input type="text" id="Ano" name="Ano"> 
+						<input type="text" id="Nota" name="Nota">
+						<input type="submit">
+					 </form>
 						<div class="movie-item-style-2 movie-item-style-1">
 							<img src="/assets/images/uploads/mv1.jpg" alt="">
 							<div class="hvr-inner">
