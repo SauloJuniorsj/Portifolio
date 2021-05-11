@@ -3,55 +3,52 @@
 		<div class="container">
 			<div class="flex-parent-ft">
 				<div class="flex-child-ft item1">
-					<a href="index.html"><img class="logo" src="/assets/images/logo1.png" alt=""></a>
-					<p>5th Avenue st, manhattan<br>
-						New York, NY 10001</p>
-					<p>Call us: <a href="#">(+01) 202 342 6789</a></p>
+					<a href="home"><img class="logo" src="/assets/images/logo1.png" alt=""></a>
+					<p>R. Itajubá, 673 - Portão, Curitiba - PR<br>
+						CEP: 81070-190</p>
+					<p>Entre em Contato : <a href="#">(41)3389-7000</a></p>
 				</div>
 				<div class="flex-child-ft item2">
-					<h4>Resources</h4>
+					<h4>Recursos</h4>
 					<ul>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Blockbuster</a></li>
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Sobre</a></li>
+						<li><a href="#">Contate-nos</a></li>
 						<li><a href="#">Forums</a></li>
 						<li><a href="#">Blog</a></li>
-						<li><a href="#">Help Center</a></li>
+						<li><a href="#">Centro de Ajuda</a></li>
 					</ul>
 				</div>
 				<div class="flex-child-ft item3">
-					<h4>Legal</h4>
+					<h4>Termos Legais</h4>
 					<ul>
-						<li><a href="#">Terms of Use</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Security</a></li>
+						<li><a href="#">Termos de Uso</a></li>
+						<li><a href="#">Política de Privacidade</a></li>
+						<li><a href="#">Segurança</a></li>
 					</ul>
 				</div>
 				<div class="flex-child-ft item4">
-					<h4>Account</h4>
+					<h4>Conta</h4>
 					<ul>
-						<li><a href="#">My Account</a></li>
-						<li><a href="#">Watchlist</a></li>
-						<li><a href="#">Collections</a></li>
-						<li><a href="#">User Guide</a></li>
+						<li><a href="#">Minha Conta</a></li>
+						<li><a href="#">Guia de Usuário</a></li>
 					</ul>
 				</div>
 				<div class="flex-child-ft item5">
-					<h4>Newsletter</h4>
-					<p>Subscribe to our newsletter system now <br> to get latest news from us.</p>
+					<h4>Novidades</h4>
+					<p>Se inscreva para novidades do sistema agora<br>para ficar por dentro das últimas atualizações</p>
 					<form action="#">
-						<input type="text" placeholder="Enter your email...">
+						<input type="text" placeholder="Insira seu E-mail...">
 					</form>
-					<a href="#" class="btn">Subscribe now <i class="ion-ios-arrow-forward"></i></a>
+					<a href="#" class="btn">Inscreva-se <i class="ion-ios-arrow-forward"></i></a>
 				</div>
 			</div>
 		</div>
 		<div class="ft-copyright">
 			<div class="ft-left">
-				<p>© 2017 Blockbuster. All Rights Reserved. Designed by leehari.</p>
+				<p>© 2021 MegaFilmes. Todos os Direitos Reservados.</p>
 			</div>
 			<div class="backtotop">
-				<p><a href="#" id="back-to-top">Back to top <i class="ion-ios-arrow-thin-up"></i></a></p>
+				<p><a href="#" id="back-to-top">Volte para o Topo <i class="ion-ios-arrow-thin-up"></i></a></p>
 			</div>
 		</div>
 	</footer>

@@ -1,11 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7 no-js" lang="en-US">
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8 no-js" lang="en-US">
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
+
 <html lang="pt-br" class="no-js">
 
 <head>
@@ -47,7 +41,7 @@
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header logo">
                     <div class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
+                        <span class="sr-only">Barra de Navegação</span>
                         <div id="nav-icon1">
                             <span></span>
                             <span></span>
@@ -64,7 +58,7 @@
                         </li>
                         <li class="dropdown first">
                             <a class="btn btn-default dropdown-toggle lv1" href="/ListaFilmes/home">
-                                Home
+                                Inicio
                             </a>
                         </li>
                     </ul>
@@ -82,9 +76,9 @@
             <div class="top-search">
                 <select>
                     <option value="united">TV show</option>
-                    <option value="saab">Others</option>
+                    <option value="saab">Outros</option>
                 </select>
-                <input type="text" placeholder="Search for a movie, TV Show or celebrity that you are looking for">
+                <input type="text" placeholder="Procure por um filme, Série ou Seriado !">
             </div>
         </div>
     </header>
